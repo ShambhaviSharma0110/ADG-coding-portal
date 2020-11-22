@@ -8,7 +8,7 @@ body
     background-color: #14274e;  
     font-family: 'Poppins', sans-serif;
 }
-.wrapper {
+.login-wrapper {
     width: 600px;
     height: 400px;
     display: flex;
@@ -19,19 +19,13 @@ body
     background-color: #f1f6f9;
     margin:10% 10% 0% 25%;
   }
-  .wrapper label {
+  .login-wrapper label {
     font-size: 16px;
     margin-bottom: 0em;
     color: #222;
     font-weight: lighter;
   }
-  .wrapper input::placeholder
-  {
-    font-size: 1.2em;
-    font-weight: lighter;
-    color: #999;
-  }
-  .pass input::placeholder
+  .login-wrapper input::placeholder
   {
     font-size: 1.2em;
     font-weight: lighter;
@@ -57,7 +51,7 @@ body
     margin-bottom: 10px;
     width: 100%;
   }
-  .myButton {
+.myButton {
       
     background-color:#14274e;
     border-radius:5%;

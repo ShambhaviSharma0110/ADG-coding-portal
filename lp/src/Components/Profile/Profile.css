@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body{
+ background-color: rgb(228, 228, 228);
+}
+
+h1{
+    color:black;
+}
+
+.details {
+    display: flex;
+    min-height: 90vh;
+   
+}
+
+.image-section {
+    flex-grow: 0.1;
+    padding: 2%;
+}
+
+.image {
+    background-color: rgb(122, 121, 121);
+    height: 250px;
+    width: 250px;
+    margin-left: 10%;
+    text-align: center;
+}
+
+.info {
+    flex-grow: 1;
+}
+
+.card {
+    background-color: white;
+    padding: 5%;
+    margin: 3%;
+    box-shadow: 10px 10px 10px gray;
+}
+
+.names {
+    display: flex;
+}
+
+.name {
+    flex-grow: 1;
+}
+
+.username {
+    flex-grow: 1;
+}
+
+.info h3{
+    font-size: 120%;
+}

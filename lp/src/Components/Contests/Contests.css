@@ -1,0 +1,21 @@
+.contest
+{
+    float: left;
+    margin-left:3%;
+}
+h3
+{
+    margin-left:0.5%;
+}
+.problems p{
+    margin-left: 35%;
+}
+.problems
+{
+    background-color: rgb(197, 211, 228);
+    width: 200vh;
+    height:150vh;
+    margin:auto;
+    border-radius: 10px;
+    box-shadow: 10px 10px  rgb(99, 100, 124);
+}
